@@ -13,7 +13,7 @@ const Topbar = ({ onProfileClick }) => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <header className="sticky top-0 z-30 flex h-16 items-center justify-between px-4 sm:px-6 glass border-b border-white/5 dark:border-white/5 light:border-slate-200">
+    <header className="sticky top-0 z-30 flex h-16 w-full items-center justify-between px-4 sm:px-6 glass border-b border-white/5 dark:border-white/5 light:border-slate-200">
       <div className="flex items-center gap-4">
         <Button variant="ghost" size="icon" onClick={toggleSidebar} className="md:hidden text-foreground">
           <Menu className="h-5 w-5" />
